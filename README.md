@@ -8,6 +8,8 @@ https://github.com/Paytm-Payments/Paytm_App_Checksum_Kit_JAVA
 
 Step1:
 Generation of check sum in typescript file
+
+
      let body= {
      "MID":"WorldP64425807474247",
      "ORDER_ID":orderid,
@@ -36,4 +38,3 @@ Generation of check sum in typescript file
         
        Need to generate random orderid and customer id same order id and customer id need to pass to paytm sdk
        
-Step2:
