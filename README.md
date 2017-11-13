@@ -2,9 +2,11 @@
 Steps for integrating paytm in ionic2 and ionic3 in ios apps
 
 Checksum Utilities:
+https://github.com/Paytm-Payments/Paytm_App_Checksum_Kit_PHP
 
-
-https://github.com/Paytm-Payments/Paytm_App_Checksum_Kit_JAVA
+Inbstalation:
+cordova plugin add https://github.com/samyam-a/PayTM-PhoneGap-Plugin.git --variable GENERATE_URL=<Checksum Generation URL> --variable VERIFY_URL=<Checksum Validation Url> --variable MERCHANT_ID=<MerchantID> --variable INDUSTRY_TYPE_ID=<IndustryType> --variable WEBSITE=<WAPWebsiteName>
+     
 
 
 Step1:
@@ -35,6 +37,11 @@ Generation of check sum in typescript file
            console.log("Error happened: " + error);
             }
         );
+        
+  Step2:
+  need to add check sum verifier inside PaytmCardova.m file
+  Replace https://test.com/paytm_demo/verifyChecksum.php with respect to you checksum verifier.
+  
         
         
        Need to generate random orderid and customer id same order id and customer id need to pass to paytm sdk
