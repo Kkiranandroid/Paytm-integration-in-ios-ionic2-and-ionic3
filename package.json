@@ -1,0 +1,86 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "https://github.com/samyam-a/PayTM-PhoneGap-Plugin.git",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "https://github.com/samyam-a/PayTM-PhoneGap-Plugin.git",
+        "spec": "git+https://github.com/samyam-a/PayTM-PhoneGap-Plugin.git",
+        "type": "hosted",
+        "hosted": {
+          "type": "github",
+          "ssh": "git@github.com:samyam-a/PayTM-PhoneGap-Plugin.git",
+          "sshUrl": "git+ssh://git@github.com/samyam-a/PayTM-PhoneGap-Plugin.git",
+          "httpsUrl": "git+https://github.com/samyam-a/PayTM-PhoneGap-Plugin.git",
+          "gitUrl": "git://github.com/samyam-a/PayTM-PhoneGap-Plugin.git",
+          "shortcut": "github:samyam-a/PayTM-PhoneGap-Plugin",
+          "directUrl": "https://raw.githubusercontent.com/samyam-a/PayTM-PhoneGap-Plugin/master/package.json"
+        }
+      },
+      "/Users/infomazetechnologies/Desktop/Madhusudhan/Research document/PaytmDemo/node_modules"
+    ]
+  ],
+  "_from": "git+https://github.com/samyam-a/PayTM-PhoneGap-Plugin.git",
+  "_id": "com.paytm.cordova@0.0.1",
+  "_inCache": true,
+  "_location": "/com.paytm.cordova",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "https://github.com/samyam-a/PayTM-PhoneGap-Plugin.git",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "https://github.com/samyam-a/PayTM-PhoneGap-Plugin.git",
+    "spec": "git+https://github.com/samyam-a/PayTM-PhoneGap-Plugin.git",
+    "type": "hosted",
+    "hosted": {
+      "type": "github",
+      "ssh": "git@github.com:samyam-a/PayTM-PhoneGap-Plugin.git",
+      "sshUrl": "git+ssh://git@github.com/samyam-a/PayTM-PhoneGap-Plugin.git",
+      "httpsUrl": "git+https://github.com/samyam-a/PayTM-PhoneGap-Plugin.git",
+      "gitUrl": "git://github.com/samyam-a/PayTM-PhoneGap-Plugin.git",
+      "shortcut": "github:samyam-a/PayTM-PhoneGap-Plugin",
+      "directUrl": "https://raw.githubusercontent.com/samyam-a/PayTM-PhoneGap-Plugin/master/package.json"
+    }
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/samyam-a/PayTM-PhoneGap-Plugin.git#75c774bb8bc47ef05fdc93b3ce6234890c93453a",
+  "_shasum": "3bd9e1db58610c7e9e8c36e39ebf60b179e650b7",
+  "_shrinkwrap": null,
+  "_spec": "https://github.com/samyam-a/PayTM-PhoneGap-Plugin.git",
+  "_where": "/Users/infomazetechnologies/Desktop/Madhusudhan/Research document/PaytmDemo/node_modules",
+  "cordova_name": "PayTM",
+  "dependencies": {},
+  "description": "\n      This Plugin allows you to integrate PayTM application into a cordova app.",
+  "devDependencies": {},
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "gitHead": "75c774bb8bc47ef05fdc93b3ce6234890c93453a",
+  "issue": "https://github.com/samyam-a/PayTM-PhoneGap-Plugin/issues",
+  "keywords": [
+    "PayTM",
+    " Payment",
+    " Gateway",
+    " Mobile"
+  ],
+  "license": "MIT",
+  "name": "com.paytm.cordova",
+  "optionalDependencies": {},
+  "platforms": [
+    "ios",
+    "android"
+  ],
+  "readme": "Installation\n============\n\n```\ncordova plugin add https://github.com/samyam-a/PayTM-PhoneGap-Plugin.git --variable GENERATE_URL=<Checksum Generation URL> --variable VERIFY_URL=<Checksum Validation Url> --variable MERCHANT_ID=<MerchantID> --variable INDUSTRY_TYPE_ID=<IndustryType> --variable WEBSITE=<WAPWebsiteName>\n```\n\nUsage\n=====\n\n```\nwindow.plugins.paytm.startPayment(txn_id, customer_id, email, phone, amount, successCallback, failureCallback);\n```",
+  "readmeFilename": "Readme.md",
+  "repo": "https://github.com/samyam-a/PayTM-PhoneGap-Plugin.git",
+  "version": "0.0.1"
+}
