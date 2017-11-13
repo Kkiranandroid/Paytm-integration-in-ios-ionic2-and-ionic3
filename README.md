@@ -5,7 +5,8 @@ Checksum Utilities:
 https://github.com/Paytm-Payments/Paytm_App_Checksum_Kit_PHP
 
 Inbstalation:
-cordova plugin add https://github.com/samyam-a/PayTM-PhoneGap-Plugin.git --variable GENERATE_URL=<Checksum Generation URL> --variable VERIFY_URL=<Checksum Validation Url> --variable MERCHANT_ID=<MerchantID> --variable INDUSTRY_TYPE_ID=<IndustryType> --variable WEBSITE=<WAPWebsiteName>
+
+cordova plugin add git@github.com:Kkiranandroid/Paytm-integration-in-ios-ionic2-and-ionic3.git --variable GENERATE_URL=<Checksum Generation URL> --variable VERIFY_URL=<Checksum Validation Url> --variable MERCHANT_ID=<MerchantID> --variable INDUSTRY_TYPE_ID=<IndustryType> --variable WEBSITE=<WAPWebsiteName>
      
 
 
